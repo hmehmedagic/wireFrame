@@ -1,0 +1,111 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(191, 191, 191, 0.5);
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+    /* border: solid blue; //for testing*/
+}
+
+.headerLeft>*:not(:last-child) {
+    margin-right: 100px;
+}
+
+.logo {
+    height: 30px;
+    width: 80px;
+    background-color: aliceblue;
+}
+
+.headerRight {
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* border: solid green; //for testing*/
+}
+
+.headerRight>*:not(:last-child) {
+    margin-right: 100px;
+}
+
+.profile {
+    height: 30px;
+}
+
+.productImg {
+    background-color: rgba(234, 234, 234, 0.5);
+    height: 500px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.shippingNav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.delivery,
+.shipping,
+.pickUp {
+    background-color: rgba(234, 234, 234, 0.5);
+    height: 50%;
+    width: 50%;
+    position: relative;
+}
+
+.ship,
+.deliver,
+.pick {
+    height: 40px;
+    width: 50%;
+}
+
+.freePickup {
+    margin-left: 200px;
+}
+
+.infoDump1,
+.infoDump3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoDump2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p2 {
+    font-size: 16px;
+}
+
+.p1,
+.p2 {
+    margin: 0;
+    width: 100%;
+}
+
+.borderedImg {
+    background-color: rgba(234, 234, 234, 0.5);
+    height: 400px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
